@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Projects\\Apollo-level-2\\Services\\university-management-auth-service\\logs\\winston\\errors\\.db28662a5deddce9b259f3e767882c024b591768-audit.json",
+    "files": [
+        {
+            "date": 1697689933116,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-19-10-10-error.log",
+            "hash": "dba667a8417d03992784e4124ee89ee164f1288de61ed9644430de6ba1b6b55c"
+        },
+        {
+            "date": 1697777061618,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-20-10-10-error.log",
+            "hash": "08a171ffa413d8926834cf11677679dee324c69a1e8c773007af8286c9cf45ce"
+        },
+        {
+            "date": 1697778854164,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-20-10-11-error.log",
+            "hash": "ab97700d6824a20453eadd6ebc8621935e8181d93f994f685fab6e8e8a165b1b"
+        },
+        {
+            "date": 1697795188475,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-20-10-15-error.log",
+            "hash": "75f195247101f3d9850035481d6c2a9dcb22e4d33361102c6ce9b30e3c0cba0c"
+        },
+        {
+            "date": 1698229757570,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-25-10-16-error.log",
+            "hash": "5a0d8f075f29efe2e7697ad6096462618f36943757f556534207ab52e36f045e"
+        },
+        {
+            "date": 1698234662532,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-25-10-17-error.log",
+            "hash": "17552cb3fe5c9a5e1dba53edf98851e72a0dae0e56ef2f17f2bba1151fa1306c"
+        }
+    ],
+    "hashType": "sha256"
+}

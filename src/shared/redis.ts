@@ -7,14 +7,14 @@ const redisClient = createClient({
 
 const redisPubClient = createClient({
     url: config.redis.url
-});
+}); 
 
 const redisSubClient = createClient({
     url: config.redis.url
 });
 
 redisClient.on('error', (error) => console.log('RedisError', error))
-redisClient.on('connect', (error) => console.log('Redis Connected'))
+redisClient.on('connect', () => console.log('Redis Connected'))
 
 const connect = async (): Promise<void> => {
     await redisClient.connect();

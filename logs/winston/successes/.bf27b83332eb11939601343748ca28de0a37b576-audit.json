@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Projects\\Apollo-level-2\\Services\\university-management-auth-service\\logs\\winston\\successes\\.bf27b83332eb11939601343748ca28de0a37b576-audit.json",
+    "files": [
+        {
+            "date": 1697689933105,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-19-10-10-success.log",
+            "hash": "e3e8c7da12a8b46399d77870e5c3810ae617d50d2071871c7391e6ae12e36a29"
+        },
+        {
+            "date": 1697777061607,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-20-10-10-success.log",
+            "hash": "15849551a1ca11c7cc5f5d08d8367b3d043bb74275c2d4f230824aab2a3c2aee"
+        },
+        {
+            "date": 1697778854129,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-20-10-11-success.log",
+            "hash": "05273917d75d455ca1bd9ecc312cf490a914ca9567a3d56b0381bdf97d1ef775"
+        },
+        {
+            "date": 1698229757553,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-25-10-16-success.log",
+            "hash": "e73ff26f5285778a17e03f493ca859dafe19f4ea43413c2c2d3009e635e74ca8"
+        }
+    ],
+    "hashType": "sha256"
+}

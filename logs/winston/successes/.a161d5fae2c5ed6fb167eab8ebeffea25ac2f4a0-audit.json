@@ -1,0 +1,70 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\successes\\.a161d5fae2c5ed6fb167eab8ebeffea25ac2f4a0-audit.json",
+    "files": [
+        {
+            "date": 1699956781571,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\successes\\phu-2023-14-11-16-success.log",
+            "hash": "38a37434be47e7a7ea240c94b37ac237709e9b47cb653ae6fd93cdb9fcac8d45"
+        },
+        {
+            "date": 1700062179912,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\successes\\phu-2023-15-11-21-success.log",
+            "hash": "a675bbc7e9c79468ec31342593342ec6565ccf6ee143f7e2850243a2e2cf219d"
+        },
+        {
+            "date": 1700140123255,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\successes\\phu-2023-16-11-19-success.log",
+            "hash": "c8dd0a63da10a939391621d838a8b45aa01ec484ee82c9e342e5ffbaa23167b4"
+        },
+        {
+            "date": 1700149395308,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\successes\\phu-2023-16-11-21-success.log",
+            "hash": "3ad9c3b7a7821196a2b256e0f7082fde08b26c478801c3482af452a601af2068"
+        },
+        {
+            "date": 1700150992204,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\successes\\phu-2023-16-11-22-success.log",
+            "hash": "e5bf561324abbbe1082ca98b63179d697646fb6e85d84708029a22cd483fc415"
+        },
+        {
+            "date": 1700169219322,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\successes\\phu-2023-17-11-03-success.log",
+            "hash": "a7c00b30313d67f8e64e8ac51547f8d6c532fb628135c65367d5dfad87e141fa"
+        },
+        {
+            "date": 1700180505881,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\successes\\phu-2023-17-11-06-success.log",
+            "hash": "5b1fee50901f683f8b401bead8e83bc975cf2892b60ecfdf4e923005466c19c0"
+        },
+        {
+            "date": 1700307875832,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\successes\\phu-2023-18-11-17-success.log",
+            "hash": "fc7875090e67de425414b76dbb25ad3cc73a7fd956086303c0dec443e2dc7ff9"
+        },
+        {
+            "date": 1700431933077,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\successes\\phu-2023-20-11-04-success.log",
+            "hash": "4fcc6fce4428a3029c3b3a7d224c7ea5711148600d3b7337891a57e4f5ed4e16"
+        },
+        {
+            "date": 1700479999338,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\successes\\phu-2023-20-11-17-success.log",
+            "hash": "5802443d3f441956d7575b1e6322aea1520a49ef5f0bc717f7fc21cc8d9fe6e0"
+        },
+        {
+            "date": 1700510145072,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\successes\\phu-2023-21-11-01-success.log",
+            "hash": "38d4e71b9f22b3f5175a953f0a76896accc2f309050b9cb0c0bed2c80d15bdfe"
+        },
+        {
+            "date": 1700514447883,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\successes\\phu-2023-21-11-03-success.log",
+            "hash": "6b1c7ebf4287a2689aeedaa7d76f5485cd999017aacfa24ab5dd6393f143a3c4"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,70 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\errors\\.4ee57134d464fa0256fc25e6217f3e5115dffb92-audit.json",
+    "files": [
+        {
+            "date": 1699956781584,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\errors\\phu-2023-14-11-16-error.log",
+            "hash": "7a382a238074d06943751ec95473b950f2f1e9963dcc46a124e1d4f85f8b2389"
+        },
+        {
+            "date": 1700062179931,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\errors\\phu-2023-15-11-21-error.log",
+            "hash": "3080aff3b9266a4a2abac96252d722937823659e56fb6181e3d089f275904304"
+        },
+        {
+            "date": 1700140123292,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\errors\\phu-2023-16-11-19-error.log",
+            "hash": "c4c99a71c34cb911ad497785e70e686ea35a88f4039a0484f9ed1eb7c5fb0e49"
+        },
+        {
+            "date": 1700149395324,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\errors\\phu-2023-16-11-21-error.log",
+            "hash": "837bdd0e7da534c1adff94722cc8c2b4eaccfb3e408917e1928bd5e4472eff4d"
+        },
+        {
+            "date": 1700150447164,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\errors\\phu-2023-16-11-22-error.log",
+            "hash": "3b82d5d3d2fb17fc337092a537a50f742877405ad020bf8975bff1a650906b49"
+        },
+        {
+            "date": 1700169219336,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\errors\\phu-2023-17-11-03-error.log",
+            "hash": "14dc50a323027a29d1505b23e68e703a6f05e8a9a6ff4ee997c910919e31b0a6"
+        },
+        {
+            "date": 1700180505895,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\errors\\phu-2023-17-11-06-error.log",
+            "hash": "1eebb6ca1ebfb433dd57492af188c428eb0d7c2f186df75c48cc0c6e46dda229"
+        },
+        {
+            "date": 1700307875847,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\errors\\phu-2023-18-11-17-error.log",
+            "hash": "221685e5f1f13c0b3709924b32738a7218715069eb0105c4791b1f3687739f7e"
+        },
+        {
+            "date": 1700431933101,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\errors\\phu-2023-20-11-04-error.log",
+            "hash": "6a281eda2ff76cd8677f5bdf8acef0f358924ecbd02f527abd31687219d37982"
+        },
+        {
+            "date": 1700479999351,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\errors\\phu-2023-20-11-17-error.log",
+            "hash": "c4cbde06c85af0edcb79e9322229172da63d2dbf8fb783c5b533628117987057"
+        },
+        {
+            "date": 1700510145089,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\errors\\phu-2023-21-11-01-error.log",
+            "hash": "ca5b4b18e9a3666458b6967b51e5dd72147cb31c872d66d6897aa79120f2a6d6"
+        },
+        {
+            "date": 1700514447903,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-auth-service\\logs\\winston\\errors\\phu-2023-21-11-03-error.log",
+            "hash": "1d9d6b09582db4c3df710c13098288e7e4d5849026aee2ab75d0c1b82e368bec"
+        }
+    ],
+    "hashType": "sha256"
+}
