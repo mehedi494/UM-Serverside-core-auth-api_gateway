@@ -1,0 +1,50 @@
+Tue Nov 21 2023 3:48:44 } [PH] error: 
+Invalid `prisma.faculty.create()` invocation:
+
+{
+  data: {
+    facultyId: "F-00007",
+    firstName: "Fahim",
+    lastName: "Ahamd",
+    middleName: "Sabuj",
+    email: "faculty_6@gmail.com",
+    contactNo: "faculty_6",
+    gender: "male",
+    bloodGroup: "A+",
+    designation: "Lecturer",
+    academicDepartmentId: "ee9bf4a7-911f-4139-9353-19579d0230d3",
+    academicFacultyId: "b61b42da-6b69-4c64-b92a-3e34fcfe2cec",
++   profileImage: String
+  },
+  include: {
+    academicFaculty: true,
+    academicDepartment: true
+  }
+}
+
+Argument `profileImage` is missing.
+Tue Nov 21 2023 3:50:48 } [PH] error: 
+Invalid `prisma.faculty.create()` invocation:
+
+{
+  data: {
+    facultyId: "F-00008",
+    firstName: "Fahim",
+    lastName: "Ahamd",
+    middleName: "Sabuj",
+    email: "faculty_7@gmail.com",
+    contactNo: "faculty_7",
+    gender: "male",
+    bloodGroup: "A+",
+    designation: "Lecturer",
+    academicDepartmentId: "ee9bf4a7-911f-4139-9353-19579d0230d3",
+    academicFacultyId: "b61b42da-6b69-4c64-b92a-3e34fcfe2cec",
++   profileImage: String
+  },
+  include: {
+    academicFaculty: true,
+    academicDepartment: true
+  }
+}
+
+Argument `profileImage` is missing.

@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Projects\\Apollo-level-2\\Services\\university-management-core-service\\logs\\winston\\successes\\.977db9598bedff1481cc91e2372da0ba143b6d67-audit.json",
+    "files": [
+        {
+            "date": 1697690018096,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-core-service\\logs\\winston\\successes\\phu-2023-19-10-10-success.log",
+            "hash": "c7c991fd976084c25589268b2790455399856623ef16d73e8e708890aced66ef"
+        },
+        {
+            "date": 1697777079865,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-core-service\\logs\\winston\\successes\\phu-2023-20-10-10-success.log",
+            "hash": "d0f4b0240b8e33721caf75d5a1026eb5bb2c64faec22a7b3d1570d50c51f0ffa"
+        },
+        {
+            "date": 1697780792586,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-core-service\\logs\\winston\\successes\\phu-2023-20-10-11-success.log",
+            "hash": "1a5294b8a849b5f3e00bf291c5071908f7954cf25678246d2576e163d88e326e"
+        },
+        {
+            "date": 1697783741021,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-core-service\\logs\\winston\\successes\\phu-2023-20-10-12-success.log",
+            "hash": "851339566f144a7533130148ccf79b6138e2184447fb5492537587e391325f6d"
+        },
+        {
+            "date": 1697798272385,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-core-service\\logs\\winston\\successes\\phu-2023-20-10-16-success.log",
+            "hash": "67a26caf019a90b44022f0fa63b78ee3cc5faa4a3f7bb36d4e103c5ec7a4a617"
+        },
+        {
+            "date": 1698229740779,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-core-service\\logs\\winston\\successes\\phu-2023-25-10-16-success.log",
+            "hash": "0abc97e7bd709d2affe69e69af807edef12652f48fc0adc688d92fc9dface925"
+        }
+    ],
+    "hashType": "sha256"
+}

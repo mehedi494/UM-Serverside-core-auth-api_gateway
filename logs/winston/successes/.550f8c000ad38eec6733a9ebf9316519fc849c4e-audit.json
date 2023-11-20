@@ -1,0 +1,45 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-core-service\\logs\\winston\\successes\\.550f8c000ad38eec6733a9ebf9316519fc849c4e-audit.json",
+    "files": [
+        {
+            "date": 1699956795029,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-core-service\\logs\\winston\\successes\\phu-2023-14-11-16-success.log",
+            "hash": "7d17bff83e07153c1be3fc7c6793245ee2b9ada4ed3d8e9fb0fe22f5e2053355"
+        },
+        {
+            "date": 1700149543197,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-core-service\\logs\\winston\\successes\\phu-2023-16-11-21-success.log",
+            "hash": "bd1681148d5432274fd981d2c939c63aa5661240f726c3ff23ee601ec67d45d8"
+        },
+        {
+            "date": 1700167338044,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-core-service\\logs\\winston\\successes\\phu-2023-17-11-02-success.log",
+            "hash": "6a540f1746938722ff935671528661cb0ab57136a0b36b79710a9af2aafb8152"
+        },
+        {
+            "date": 1700170780289,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-core-service\\logs\\winston\\successes\\phu-2023-17-11-03-success.log",
+            "hash": "1df7a2d74df9fe87c22979d3e1c43c12b66aa52d6c960b0dc9137feb6749a548"
+        },
+        {
+            "date": 1700307880074,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-core-service\\logs\\winston\\successes\\phu-2023-18-11-17-success.log",
+            "hash": "78dd236a6f33d63b830514f8f5599ee63c739e1b7861690e4d09621e4937f0f9"
+        },
+        {
+            "date": 1700480007759,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-core-service\\logs\\winston\\successes\\phu-2023-20-11-17-success.log",
+            "hash": "04e831e26c19c922787a1fe162743feefb6be0d906d06bc6a876cecd14c01d38"
+        },
+        {
+            "date": 1700516391589,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\University-managment\\Server-side\\UM-core-service\\logs\\winston\\successes\\phu-2023-21-11-03-success.log",
+            "hash": "e8ba1cdde9202d84eb4157e29556443f4a8cbc5721f87734c24bf568dbafac55"
+        }
+    ],
+    "hashType": "sha256"
+}

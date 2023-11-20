@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Projects\\Apollo-level-2\\Services\\university-management-core-service\\logs\\winston\\errors\\.618716546edf0c4002018729c522175bd5781647-audit.json",
+    "files": [
+        {
+            "date": 1697690018107,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-core-service\\logs\\winston\\errors\\phu-2023-19-10-10-error.log",
+            "hash": "b7c1dfeba3072e2ef0fb1c65e25bdd8a72984899be4fd3914ca66349229f36d1"
+        },
+        {
+            "date": 1697777079875,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-core-service\\logs\\winston\\errors\\phu-2023-20-10-10-error.log",
+            "hash": "0c532f8ce6e0d5fb139f2e26c3dca8f922ec889ff9ef2a116aa81a88f0e2a00a"
+        },
+        {
+            "date": 1697780792599,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-core-service\\logs\\winston\\errors\\phu-2023-20-10-11-error.log",
+            "hash": "611f4217ec0bd6012835de5944f1950e75fdf34c99758125179665704690dd31"
+        },
+        {
+            "date": 1697783741032,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-core-service\\logs\\winston\\errors\\phu-2023-20-10-12-error.log",
+            "hash": "2a6b98703b934d66673091920bf9137e993145b9c449d8c284bd67f5b06e461a"
+        },
+        {
+            "date": 1697798272407,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-core-service\\logs\\winston\\errors\\phu-2023-20-10-16-error.log",
+            "hash": "fcc189c624c3453df082aee467c4148b5210b20c9c80cdd2e736c64809a7fa29"
+        },
+        {
+            "date": 1698229740791,
+            "name": "C:\\Projects\\Apollo-level-2\\Services\\university-management-core-service\\logs\\winston\\errors\\phu-2023-25-10-16-error.log",
+            "hash": "e2d8b22356534d1605de82d44d29f9124627a63673b812b3564e15ebf9c06159"
+        }
+    ],
+    "hashType": "sha256"
+}
