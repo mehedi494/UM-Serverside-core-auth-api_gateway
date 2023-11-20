@@ -7,10 +7,11 @@ import { AuthService } from '../../../shared/axios';
 const createStudent = async (req: Request) => {
   const file = req.file as IUploadFile;
   const uploadedImage = await FileUploderHelper.uploadToClouinary(file);
+  console.log(uploadedImage);
   if (uploadedImage) {
-    req.body.profileImage = uploadedImage.secure_url;
+    req.body.student.profileImage = uploadedImage.secure_url;
   }
-  // console.log(req.body);
+
   const { academicDepartment, academicFaculty, academicSemester } = req.body.student;
   // console.log(academicDepartment);
   /**----------- academicDepartment */
@@ -35,24 +36,25 @@ const createStudent = async (req: Request) => {
   if (academicSemesterResponse.data && Array.isArray(academicSemesterResponse.data)) {
     req.body.student.academicSemester = academicSemesterResponse.data[0].id;
   }
-  // console.log('academic-Department: ', academicDepartment);
-  // console.log('Department', academicDepartmentResponse);
-  // console.log('semester', academicSemesterResponse);
 
   const response: IGenericResponse = await AuthService.post('/users/create-student', req.body, {
     headers: {
       Authorization: req.headers.authorization
     }
   });
-  return response
+
+  return response;
 };
 const createFaculty = async (req: Request) => {
-  const file = req.file as IUploadFile;
-  const uploadedImage = await FileUploderHelper.uploadToClouinary(file);
-  if (uploadedImage) {
-    req.body.profileImage = uploadedImage.secure_url;
+  const file = req?.file as IUploadFile;
+  // console.log(file);
+  if (file) {
+    const uploadedImage = await FileUploderHelper?.uploadToClouinary(file);
+    if (uploadedImage) {
+      req.body.faculty.profileImage = uploadedImage.secure_url;
+    }
   }
-  // console.log(req.body);
+  // console.log(req.body.profileImage)
   const { academicDepartment, academicFaculty } = req.body.faculty;
   // console.log(academicDepartment);
   /**----------- academicDepartment */
@@ -70,18 +72,19 @@ const createFaculty = async (req: Request) => {
   if (academicFacultyResponse.data && Array.isArray(academicFacultyResponse.data)) {
     req.body.faculty.academicFaculty = academicFacultyResponse.data[0].id;
   }
-  
+
   // console.log('academic-Department: ', academicDepartment);
   // console.log('Department', academicDepartmentResponse);
-  
 
   const response: IGenericResponse = await AuthService.post('/users/create-faculty', req.body, {
     headers: {
       Authorization: req.headers.authorization
     }
   });
-  return response
+  console.log(response);
+  return response;
 };
 export const UsersService = {
-  createStudent,createFaculty
+  createStudent,
+  createFaculty
 };

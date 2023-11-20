@@ -10,7 +10,7 @@ redisClient.on('error', (error) => {
   logger.error('redis Error', error);
 });
 redisClient.on('connect', (connect) => {
-  logger.error('redis connected', connect);
+  logger.info('redis connected', connect);
 });
 
 const connect = async (): Promise<void> => {

@@ -14,7 +14,6 @@ const createStudent = async (req: Request, res: Response, next: NextFunction) =>
 };
 const createFaculty = async (req: Request, res: Response, next: NextFunction) => {
   try {
-    // console.log(req.file);
     const result = await UsersService.createFaculty(req);
 
     sendResponse(res, result);
