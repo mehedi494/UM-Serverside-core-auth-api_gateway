@@ -54,10 +54,9 @@ const createFaculty = async (req: Request) => {
       req.body.faculty.profileImage = uploadedImage.secure_url;
     }
   }
-  // console.log(req.body.profileImage)
+ 
   const { academicDepartment, academicFaculty } = req.body.faculty;
-  // console.log(academicDepartment);
-  /**----------- academicDepartment */
+ 
   const academicDepartmentResponse = await AuthService.get(
     `/academic-departments?syncId=${academicDepartment}`
   );
@@ -73,8 +72,7 @@ const createFaculty = async (req: Request) => {
     req.body.faculty.academicFaculty = academicFacultyResponse.data[0].id;
   }
 
-  // console.log('academic-Department: ', academicDepartment);
-  // console.log('Department', academicDepartmentResponse);
+
 
   const response: IGenericResponse = await AuthService.post('/users/create-faculty', req.body, {
     headers: {
