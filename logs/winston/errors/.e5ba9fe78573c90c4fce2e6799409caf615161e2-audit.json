@@ -1,0 +1,50 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Projects\\UM\\UM-BACKEND\\UM-CoreService\\logs\\winston\\errors\\.e5ba9fe78573c90c4fce2e6799409caf615161e2-audit.json",
+    "files": [
+        {
+            "date": 1701310540091,
+            "name": "C:\\Projects\\UM\\UM-BACKEND\\UM-CoreService\\logs\\winston\\errors\\phu-2023-30-11-08-error.log",
+            "hash": "b13774fb47f99bf103ad2891a9d41b11c043e22711b4c7685e68c4646059557b"
+        },
+        {
+            "date": 1701367038493,
+            "name": "C:\\Projects\\UM\\UM-BACKEND\\UM-CoreService\\logs\\winston\\errors\\phu-2023-30-11-23-error.log",
+            "hash": "aedaedd04275f6faffe805861172eae0485746f1c9965ae6baf79ac293900678"
+        },
+        {
+            "date": 1701477764397,
+            "name": "C:\\Projects\\UM\\UM-BACKEND\\UM-CoreService\\logs\\winston\\errors\\phu-2023-02-12-06-error.log",
+            "hash": "a8681ec422212bb053fa8c8549e4e8194b67e0722034a12731960b419dedafd0"
+        },
+        {
+            "date": 1701479620114,
+            "name": "C:\\Projects\\UM\\UM-BACKEND\\UM-CoreService\\logs\\winston\\errors\\phu-2023-02-12-07-error.log",
+            "hash": "524ce5115a0401feb6654c0209ae87dde9a3a8f97831c86bfaa7fcafbdcf67fc"
+        },
+        {
+            "date": 1701827305262,
+            "name": "C:\\Projects\\UM\\UM-BACKEND\\UM-CoreService\\logs\\winston\\errors\\phu-2023-06-12-07-error.log",
+            "hash": "78db691eecbb09bef1372d3f21c2b4e3c14876593187d98a8e426f1f1384220d"
+        },
+        {
+            "date": 1701978694038,
+            "name": "C:\\Projects\\UM\\UM-BACKEND\\UM-CoreService\\logs\\winston\\errors\\phu-2023-08-12-01-error.log",
+            "hash": "925388b18188d1c5b2309155d312bd64ba08dcd031f4bef50535d3ff48e53f36"
+        },
+        {
+            "date": 1702007067333,
+            "name": "C:\\Projects\\UM\\UM-BACKEND\\UM-CoreService\\logs\\winston\\errors\\phu-2023-08-12-09-error.log",
+            "hash": "bae5e2abb377f6d8e13555d84e9762e5178110fb2ae04230c47a512bd2d1b573"
+        },
+        {
+            "date": 1702347180563,
+            "name": "C:\\Projects\\UM\\UM-BACKEND\\UM-CoreService\\logs\\winston\\errors\\phu-2023-12-12-08-error.log",
+            "hash": "aaae9fbde39b93de6938aff293324be1e42f01e6c3a38d887db0218e16b44d0b"
+        }
+    ],
+    "hashType": "sha256"
+}
