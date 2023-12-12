@@ -10,6 +10,7 @@ import { ManagementDepartmentService } from './managementDepartment.service';
 
 const createDepartment = catchAsync(async (req: Request, res: Response) => {
   const { ...departmentData } = req.body;
+  console.log(departmentData);
   const result = await ManagementDepartmentService.createDepartment(
     departmentData
   );

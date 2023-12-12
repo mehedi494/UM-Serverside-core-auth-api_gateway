@@ -5,7 +5,7 @@ import { AcademicSemesterRoutes } from '../modules/academicSemester/academicSeme
 import { AdminRoutes } from '../modules/admin/admin.route';
 import { AuthRoutes } from '../modules/auth/auth.route';
 import { FacultyRoutes } from '../modules/faculty/faculty.route';
-import { ManagementDepartmentRoutes } from '../modules/managementDepartment/managementDepartment.route';
+import { ManagementDepartmentRoutes } from '../modules/managementDepartment/managementDepartment.routes';
 import { StudentRoutes } from '../modules/student/student.route';
 import { UserRoutes } from '../modules/user/user.route';
 
