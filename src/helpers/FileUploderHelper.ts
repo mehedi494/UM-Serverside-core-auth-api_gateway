@@ -1,12 +1,13 @@
 import { v2 as cloudinary } from 'cloudinary';
-import fs from 'fs';
+import * as fs from 'fs';
 import multer from 'multer';
+import config from '../config';
 import { ICloudinaryResponse, IUploadFile } from '../interfaces/file';
 
 cloudinary.config({
-  cloud_name: 'duayv8nof',
-  api_key: '455451472644929',
-  api_secret: 'Lwh3ViUopEio-4Tksz0kxtxRprc'
+  cloud_name: config.cloudinary.cloudName,
+  api_key: config.cloudinary.apiKey,
+  api_secret: config.cloudinary.apiSecret
 });
 
 const storage = multer.diskStorage({
@@ -20,7 +21,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage: storage });
 
-const uploadToClouinary = async (file: IUploadFile): Promise<ICloudinaryResponse | null> => {
+const uploadToCloudinary = async (file: IUploadFile): Promise<ICloudinaryResponse | undefined> => {
   return new Promise((resolve, reject) => {
     cloudinary.uploader.upload(file.path, (error: Error, result: ICloudinaryResponse) => {
       fs.unlinkSync(file.path);
@@ -33,4 +34,7 @@ const uploadToClouinary = async (file: IUploadFile): Promise<ICloudinaryResponse
   });
 };
 
-export const FileUploderHelper = { uploadToClouinary, upload };
+export const FileUploadHelper = {
+  uploadToCloudinary,
+  upload
+};
